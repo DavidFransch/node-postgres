@@ -1,0 +1,24 @@
+{
+  "name": "postgres",
+  "version": "1.0.0",
+  "description": "Spin up postgres instance:\\\r `docker run -e POSTGRES_PASSWORD=\"password\" -p 5432:5432 --name pg postgres`",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "fullTable": "node fullTable.js",
+    "asyncFullTable": "node asyncFullTable.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidFransch/node-postgres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidFransch/node-postgres/issues"
+  },
+  "homepage": "https://github.com/DavidFransch/node-postgres#readme",
+  "dependencies": {
+    "pg": "^8.8.0"
+  }
+}
